@@ -1,4 +1,4 @@
-# EnviormentalScience-PopulationCalculator Written for Node.js 
+# Enviormental Science Population Calculator Written for Node.js 
 ## This program helps calculate certain AP Enviormental Science population questions
 1) **Birth/Death Rate**
 2) **Birth/Death Rate Per Thousand**
