@@ -1,3 +1,5 @@
+// WARNING: THIS PROGRAM CONTAINS AN OPEN/UNSANITIZED EVAL, DO NOT ACCEPT CHANGED CODE OR CHANGE IT UNLESS YOU KNOW WHAT YOU ARE DOING
+
 const algebra = require('algebra.js');
 const readline = require('readline').createInterface({
   input: process.stdin,
