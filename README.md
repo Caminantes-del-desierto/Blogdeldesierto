@@ -6,9 +6,9 @@
 4) **Population Growth Rate Per Thousand**
 5) **Doubling Time**
 
-Essentially, you will choose one of the five above questions that pertain to the most common Env Sci.
-The program will then ask you for data that it needs to calculate the answer
-Whatever you are trying to calculate, just leave that value of X
+Essentially, you will choose one of the five above questions that describe the type of question you are trying to solve.
+The program will then ask you for data that it needs to calculate the answer.
+Whatever you are trying to calculate, just leave that value of X.
 
 
 *For example, if you are trying to calculate birth / death rate and you want to know the birth/death rate, leave "Birth/Death rate" as x when it asks for a value*
