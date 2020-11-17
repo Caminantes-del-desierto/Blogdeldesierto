@@ -1,5 +1,5 @@
 # Enviormental Science Population Calculator Written for Node.js 
-## This program helps calculate certain AP Enviormental Science population questions
+## This program helps calculate certain AP Enviormental Science population questions. It even shows all work and algebra steps!
 1) **Birth/Death Rate**
 2) **Birth/Death Rate Per Thousand**
 3) **Population Growth Rate**
