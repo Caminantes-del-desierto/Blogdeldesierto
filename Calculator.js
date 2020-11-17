@@ -29,9 +29,12 @@ readline.question('---------------------------------\nEnter Selection (Enter x f
 
           var x1 = algebra.parse(sanatise(births));
           var x2 = algebra.parse(`${sanatise(rate)} * ${sanatise(population)}`);
+          console.log("-------Work-------")
+          console.log(`${sanatise(births)} = ${sanatise(rate)} * ${sanatise(population)}`)
           var eq = new Equation(x1, x2);
           console.log(eq.toString())
           var answer = eq.solveFor("x");
+          console.log("-------Answer-------")
           console.log("x = " + eval(answer.toString()).toFixed(3));
         });
       });
@@ -46,9 +49,12 @@ readline.question('---------------------------------\nEnter Selection (Enter x f
 
         var x1 = algebra.parse(`${sanatise(births)}/1000`);
         var x2 = algebra.parse(sanatise(rate));
+        console.log("-------Work-------") 
+        console.log(`${sanatise(births)}/1000 = ${sanatise(rate)}`)
         var eq = new Equation(x1, x2);
         console.log(eq.toString())
         var answer = eq.solveFor("x");
+        console.log("-------Answer-------")
         console.log("x = " + eval(answer.toString()).toFixed(3));
       });
     });
@@ -66,9 +72,12 @@ readline.question('---------------------------------\nEnter Selection (Enter x f
 
                 var x1 = algebra.parse(`(${sanatise(births)}+${sanatise(immigrant)}) - (${sanatise(deaths)}+${sanatise(emigrate)})`);
                 var x2 = algebra.parse(`${sanatise(rate)} * ${sanatise(population)}`);
+                console.log("-------Work-------")
+                console.log(`(${sanatise(births)}+${sanatise(immigrant)}) - (${sanatise(deaths)}+${sanatise(emigrate)}) = ${sanatise(rate)} * ${sanatise(population)}`)
                 var eq = new Equation(x1, x2);
                 console.log(eq.toString())
                 var answer = eq.solveFor("x");
+                console.log("-------Answer-------")
                 console.log("x = " + eval(answer.toString()).toFixed(3));
               });
             });
@@ -89,9 +98,12 @@ readline.question('---------------------------------\nEnter Selection (Enter x f
 
               var x1 = algebra.parse(`(${sanatise(births)}+${sanatise(immigrant)}) - (${sanatise(deaths)}+${sanatise(emigrate)})`);
               var x2 = algebra.parse(`${sanatise(rate)} * 1000`);
+              console.log("-------Work-------")
+              console.log(`(${sanatise(births)}+${sanatise(immigrant)}) - (${sanatise(deaths)}+${sanatise(emigrate)}) = ${sanatise(rate)} * 1000`)
               var eq = new Equation(x1, x2);
               console.log(eq.toString())
               var answer = eq.solveFor("x");
+              console.log("-------Answer-------")
               console.log("x = " + eval(answer.toString()).toFixed(3));
             });
           });
@@ -105,9 +117,12 @@ readline.question('---------------------------------\nEnter Selection (Enter x f
 
         var x1 = algebra.parse("70");
         var x2 = algebra.parse(`${sanatise(rate)} * ${sanatise(doublingyears)}`);
+        console.log("-------Work-------")
+        console.log(`70=${sanatise(rate)} * ${sanatise(doublingyears)}`)
         var eq = new Equation(x1, x2);
         console.log(eq.toString())
         var answer = eq.solveFor("x");
+        console.log("-------Answer-------")
         console.log("x = " + eval(answer.toString()).toFixed(2));
       });
     });
