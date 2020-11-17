@@ -128,7 +128,11 @@ readline.question('---------------------------------\nEnter Selection (Enter x f
     });
 
 
-  } else {
+  } 
+  
+  //Extra inputPaths would go here
+
+  else {
     console.log("Invalid choice")
   }
 
