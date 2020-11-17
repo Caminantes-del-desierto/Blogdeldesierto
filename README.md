@@ -17,6 +17,7 @@ Whatever you are trying to calculate, just leave that value of X.
 
 ## This program requires an algebra.js import to function. Make sure to "npm i algebra.js -s" before starting
 
+### PS: This program is written for pure fuinctionality, so the code is messy and unprofessional but works perfectly
 
 
 
